@@ -18,7 +18,7 @@ function Footer() {
         <div className="footer-icons-social">
           <div>
             <img
-              src="/public/images/facebook_icon.png"
+              src="/images/facebook_icon.png"
               alt="Icon"
               loading="lazy"
               style={{ height: "20pt", cursor: "pointer" }}
@@ -26,7 +26,7 @@ function Footer() {
           </div>
           <div>
             <img
-              src="/public/images/instagram_icon.png"
+              src="/images/instagram_icon.png"
               alt="Icon"
               loading="lazy"
               style={{ height: "20pt", cursor: "pointer" }}
@@ -34,7 +34,7 @@ function Footer() {
           </div>
           <div>
             <img
-              src="/public/images/youtube_icon.png"
+              src="/images/youtube_icon.png"
               alt="Icon"
               loading="lazy"
               style={{ height: "30pt", cursor: "pointer" }}
@@ -42,7 +42,7 @@ function Footer() {
           </div>
           <div>
             <img
-              src="/public/images/twitter_icon.png"
+              src="/images/twitter_icon.png"
               alt="Icon"
               loading="lazy"
               style={{ height: "20pt", cursor: "pointer" }}
@@ -66,7 +66,7 @@ function Footer() {
         <div className="footer-download-icons">
           <div>
             <img
-              src="/public/images/android_icon.png"
+              src="/images/android_icon.png"
               alt="Icon"
               loading="lazy"
               style={{ height: "25pt", cursor: "pointer" }}
@@ -74,7 +74,7 @@ function Footer() {
           </div>
           <div>
             <img
-              src="/public/images/apple_icon.png"
+              src="/images/apple_icon.png"
               alt="Icon"
               loading="lazy"
               style={{ height: "30pt", cursor: "pointer" }}
