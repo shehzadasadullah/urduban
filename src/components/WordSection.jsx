@@ -138,7 +138,7 @@ function WordSection() {
                 src="/images/arrow_left.png"
                 alt="Arrow"
                 loading="lazy"
-                style={{ height: "8pt" }}
+                style={{ height: "8pt", cursor: "pointer" }}
               />
             </div>
             <div className="cw-arrow2">
@@ -146,7 +146,7 @@ function WordSection() {
                 src="/images/arrow_right.png"
                 alt="Arrow"
                 loading="lazy"
-                style={{ height: "8pt" }}
+                style={{ height: "8pt", cursor: "pointer" }}
               />
             </div>
           </div>
@@ -158,7 +158,7 @@ function WordSection() {
                 src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
-                style={{ height: "8pt" }}
+                style={{ height: "8pt", cursor: "pointer" }}
               />
             </div>
             <div className="cwc-eng">you’re welcome</div>
@@ -170,7 +170,7 @@ function WordSection() {
                 src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
-                style={{ height: "8pt" }}
+                style={{ height: "8pt", cursor: "pointer" }}
               />
             </div>
             <div className="cwc-eng">you’re welcome</div>
@@ -182,7 +182,7 @@ function WordSection() {
                 src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
-                style={{ height: "8pt" }}
+                style={{ height: "8pt", cursor: "pointer" }}
               />
             </div>
             <div className="cwc-eng">you’re welcome</div>
@@ -194,7 +194,7 @@ function WordSection() {
                 src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
-                style={{ height: "8pt" }}
+                style={{ height: "8pt", cursor: "pointer" }}
               />
             </div>
             <div className="cwc-eng">you’re welcome</div>
