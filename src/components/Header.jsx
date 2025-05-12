@@ -7,7 +7,7 @@ function Header() {
       <div>
         <img
           className="logo"
-          src="/public/logo/urduban_logo.png"
+          src="/logo/urduban_logo.png"
           alt="Logo"
           loading="lazy"
         />

@@ -9,14 +9,14 @@ function HeroSection() {
           <div className="language-option">
             <div className="language-text">English</div>
             <img
-              src="/public/logo/arrow_down.png"
+              src="/logo/arrow_down.png"
               alt="Arrow"
               loading="lazy"
               className="language-icon-small"
             />
           </div>
           <img
-            src="/public/logo/arrow_right.png"
+            src="/logo/arrow_right.png"
             alt="Image"
             loading="lazy"
             className="language-icon-large"
@@ -24,7 +24,7 @@ function HeroSection() {
           <div className="language-option">
             <div className="language-text">Urdu</div>
             <img
-              src="/public/logo/arrow_down.png"
+              src="/logo/arrow_down.png"
               alt="Arrow"
               loading="lazy"
               className="language-icon-small"
@@ -42,7 +42,7 @@ function HeroSection() {
         </div>
         {/* Ad Section */}
         <div className="ad-container">
-          <img src="/public/images/ad1.png" alt="Image" className="ad-image" />
+          <img src="/images/ad1.png" alt="Image" className="ad-image" />
         </div>
       </div>
     </div>

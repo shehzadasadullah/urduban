@@ -77,7 +77,7 @@ function WordSection() {
             <div className="download-section">
               <div style={{ padding: "10px", objectFit: "contain" }}>
                 <img
-                  src="/public/images/apple_download.png"
+                  src="/images/apple_download.png"
                   alt="Image"
                   loading="lazy"
                   style={{
@@ -89,7 +89,7 @@ function WordSection() {
               </div>
               <div style={{ padding: "10px", objectFit: "contain" }}>
                 <img
-                  src="/public/images/google_download.png"
+                  src="/images/google_download.png"
                   alt="Image"
                   loading="lazy"
                   style={{
@@ -108,7 +108,7 @@ function WordSection() {
             }}
           >
             <img
-              src="/public/images/mail_image.png"
+              src="/images/mail_image.png"
               alt="Image"
               loading="lazy"
               style={{ height: "100%", width: "100%" }}
@@ -135,7 +135,7 @@ function WordSection() {
           <div className="cw-arrows">
             <div className="cw-arrow1">
               <img
-                src="/public/images/arrow_left.png"
+                src="/images/arrow_left.png"
                 alt="Arrow"
                 loading="lazy"
                 style={{ height: "8pt" }}
@@ -143,7 +143,7 @@ function WordSection() {
             </div>
             <div className="cw-arrow2">
               <img
-                src="/public/images/arrow_right.png"
+                src="/images/arrow_right.png"
                 alt="Arrow"
                 loading="lazy"
                 style={{ height: "8pt" }}
@@ -155,7 +155,7 @@ function WordSection() {
           <div className="cw-content-wrapper">
             <div className="cwc-cross">
               <img
-                src="/public/images/cross.png"
+                src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
                 style={{ height: "8pt" }}
@@ -167,7 +167,7 @@ function WordSection() {
           <div className="cw-content-wrapper">
             <div className="cwc-cross">
               <img
-                src="/public/images/cross.png"
+                src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
                 style={{ height: "8pt" }}
@@ -179,7 +179,7 @@ function WordSection() {
           <div className="cw-content-wrapper">
             <div className="cwc-cross">
               <img
-                src="/public/images/cross.png"
+                src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
                 style={{ height: "8pt" }}
@@ -191,7 +191,7 @@ function WordSection() {
           <div className="cw-content-wrapper">
             <div className="cwc-cross">
               <img
-                src="/public/images/cross.png"
+                src="/images/cross.png"
                 alt="Arrow"
                 loading="lazy"
                 style={{ height: "8pt" }}
