@@ -1,9 +1,12 @@
-body {
+body,
+html {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
   scroll-behavior: smooth;
 }
+
+/* Header CSS */
 
 .header {
   background-color: #1657d0;
@@ -42,82 +45,7 @@ body {
   cursor: pointer !important;
 }
 
-.footer {
-  box-sizing: border-box;
-  width: 100%;
-  background: #1657d0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 40px;
-  gap: 10pt;
-}
-
-.footer-div-1 {
-  margin-left: 50pt;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 15pt;
-}
-
-.footer-logo {
-  width: 100%;
-  text-align: left;
-}
-
-.footer-copyright {
-  width: 100%;
-  text-align: left;
-  font-weight: bold;
-  color: white;
-}
-
-.footer-icons-social {
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 10pt;
-}
-
-.footer-div-2 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  gap: 10pt;
-  flex-direction: column;
-}
-
-.footer-word {
-  cursor: pointer;
-  width: 100%;
-  text-align: left;
-}
-
-.footer-div-3 {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: bold;
-  gap: 10pt;
-  flex-direction: column;
-}
-
-.footer-download-icons {
-  width: 100%;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  gap: 10pt;
-}
+/* Hero Section CSS */
 
 .hero-container {
   background-color: #1657d0;
@@ -211,6 +139,8 @@ body {
 .search-icon {
   font-size: 18px;
 }
+
+/* Word Section CSS */
 
 .ws-wrapper {
   display: flex;
@@ -442,6 +372,87 @@ body {
   text-align: right;
 }
 
+/* Footer CSS */
+
+.footer {
+  box-sizing: border-box;
+  width: 100%;
+  background: #1657d0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 40px;
+  gap: 10pt;
+}
+
+.footer-div-1 {
+  margin-left: 50pt;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15pt;
+}
+
+.footer-logo {
+  width: 100%;
+  text-align: left;
+}
+
+.footer-copyright {
+  width: 100%;
+  text-align: left;
+  font-weight: bold;
+  color: white;
+}
+
+.footer-icons-social {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10pt;
+}
+
+.footer-div-2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  gap: 10pt;
+  flex-direction: column;
+}
+
+.footer-word {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+}
+
+.footer-div-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  gap: 10pt;
+  flex-direction: column;
+}
+
+.footer-download-icons {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10pt;
+}
+
+/* Go to top button CSS */
+
 .go-to-top-btn {
   position: fixed;
   bottom: 30px;
@@ -456,7 +467,11 @@ body {
   transition: background-color 0.3s ease;
 }
 
+/* Media Query for Mobile View */
+
 @media (max-width: 768px) {
+
+  /* Header CSS (Mobile View) */
   .hamburger {
     display: block;
   }
@@ -500,6 +515,8 @@ body {
     cursor: pointer;
   }
 
+  /* Hero Section CSS (Mobile View) */
+
   .search-wrapper {
     width: 100%;
   }
@@ -511,6 +528,8 @@ body {
   .ad-container {
     width: 100%;
   }
+
+  /* Word Section CSS (Mobile View) */
 
   .ws-wrapper {
     flex-direction: column;
@@ -546,6 +565,8 @@ body {
     flex-direction: column;
   }
 
+  /* Footer CSS (Mobile View) */
+
   .footer {
     flex-direction: column;
     justify-content: center;
@@ -578,7 +599,11 @@ body {
   }
 }
 
+/* Media Query Tablet View */
+
 @media (min-width: 768px) and (max-width: 1200px) {
+
+  /* Word Section CSS (Tablet View) */
   .ws-div1 {
     width: 50%;
   }

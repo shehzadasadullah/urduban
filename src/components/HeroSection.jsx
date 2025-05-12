@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <div className="hero-container">
       <div className="hero-inner">
-        {/* Dropdown Section */}
+        {/* Language Switcher Section */}
         <div className="language-switcher">
           <div className="language-option">
             <div className="language-text">English</div>
@@ -31,6 +31,7 @@ function HeroSection() {
             />
           </div>
         </div>
+
         {/* Search bar section */}
         <div className="search-wrapper">
           <div className="search-container">
@@ -40,6 +41,7 @@ function HeroSection() {
             </button>
           </div>
         </div>
+
         {/* Ad Section */}
         <div className="ad-container">
           <img src="/images/ad1.png" alt="Image" className="ad-image" />

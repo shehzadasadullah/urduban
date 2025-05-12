@@ -19,6 +19,7 @@ function WordSection() {
   return (
     <>
       <div className="ws-wrapper">
+        {/* Word Section 1 */}
         <div className="ws-div1">
           <div className="text-left-eng-heading">
             <div className="text-left-eng-heading-inner">Verb: welcome</div>
@@ -69,6 +70,8 @@ function WordSection() {
             </div>
           </div>
         </div>
+
+        {/* Word Section 2 */}
         <div className="ws-div2">
           <div className="download-wrapper">
             <div className="download-header">
@@ -129,6 +132,7 @@ function WordSection() {
         </div>
       </div>
 
+      {/* Common Words Section */}
       <div className="common-words-wrapper">
         <div className="cw-header">
           <div className="cw-heading">Most Common Words:</div>

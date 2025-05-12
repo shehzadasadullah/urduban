@@ -3,6 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer">
+      {/* Footer Section 1 */}
       <div className="footer-div-1">
         <div className="footer-logo">
           <img
@@ -50,6 +51,8 @@ function Footer() {
           </div>
         </div>
       </div>
+
+      {/* Footer Section 2 */}
       <div className="footer-div-2">
         <div className="footer-word">Home</div>
         <div className="footer-word">Thesaurus</div>
@@ -58,6 +61,8 @@ function Footer() {
         <div className="footer-word">Word Of Day</div>
         <div className="footer-word">Quiz </div>
       </div>
+
+      {/* Footer Section 3 */}
       <div className="footer-div-3">
         <div className="footer-word">About Us</div>
         <div className="footer-word">Privacy Policy</div>
