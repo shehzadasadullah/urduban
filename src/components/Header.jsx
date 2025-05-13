@@ -1,7 +1,12 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 function Header() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  // Disable scroll when sidebar is open
+  useEffect(() => {
+    document.body.style.overflow = sidebarOpen ? "hidden" : "auto";
+  }, [sidebarOpen]);
 
   return (
     <>
