@@ -37,7 +37,16 @@ function HeroSection() {
           <div className="search-container">
             <input type="text" placeholder="Welcome" className="search-input" />
             <button className="search-button">
-              <span className="search-icon">🔍</span>
+              <span className="search-icon">
+                <img
+                  src="/images/search_icon.png"
+                  alt="Icon"
+                  loading="lazy"
+                  style={{
+                    height: "11pt",
+                  }}
+                />
+              </span>
             </button>
           </div>
         </div>

@@ -44,11 +44,12 @@ html {
 .nav-links {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .nav-links li {
   cursor: pointer !important;
+  font-weight: bold;
 }
 
 /* Hero Section CSS */
@@ -87,6 +88,7 @@ html {
 
 .language-text {
   color: white;
+  font-weight: bold;
 }
 
 .language-icon-small {
@@ -480,9 +482,11 @@ html {
   /* Header CSS (Mobile View) */
   .hamburger {
     display: block;
+    z-index: 10;
   }
 
   .logo-wrapper {
+    margin-left: -22pt;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -645,6 +649,12 @@ html {
 /* Media Query Tablet View */
 
 @media (min-width: 768px) and (max-width: 1200px) {
+
+  /* Header Section CSS */
+
+  .nav-links {
+    gap: 1rem;
+  }
 
   /* Word Section CSS (Tablet View) */
   .ws-div1 {
