@@ -1,21 +1,26 @@
 import React, { useState } from "react";
 
 function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
   return (
-    <header className="header">
-      <div>
-        <img
-          className="logo"
-          src="/logo/urduban_logo.png"
-          alt="Logo"
-          loading="lazy"
-        />
-      </div>
-      <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
-        ☰
-      </div>
-      <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>
+    <>
+      <header className="header">
+        {/* Hamburger for Mobile */}
+        <div className="hamburger" onClick={() => setSidebarOpen(true)}>
+          ☰
+        </div>
+
+        <div className="logo-wrapper">
+          <img
+            className="logo"
+            src="/logo/urduban_logo.png"
+            alt="Logo"
+            loading="lazy"
+          />
+        </div>
+
+        {/* Desktop Nav Links */}
         <ul className="nav-links">
           <li>Home</li>
           <li>Dictionary</li>
@@ -24,8 +29,33 @@ function Header() {
           <li>Antonyms</li>
           <li>Quiz</li>
         </ul>
-      </nav>
-    </header>
+      </header>
+
+      {/* Sidebar Drawer for Mobile */}
+      <div className={`sidebar-drawer ${sidebarOpen ? "open" : ""}`}>
+        <div className="sidebar-header">
+          <div style={{ marginTop: "5px" }}>
+            <img
+              className="logo"
+              src="/logo/urduban_logo.png"
+              alt="Logo"
+              loading="lazy"
+            />
+          </div>
+          <div className="close-btn" onClick={() => setSidebarOpen(false)}>
+            &times;
+          </div>
+        </div>
+        <div className="sidebar-links">
+          <div>🏠 Home</div>
+          <div>📚 Dictionary</div>
+          <div>📖 Thesaurus</div>
+          <div>🧩 Synonyms</div>
+          <div>🚫 Antonyms</div>
+          <div>❓ Quiz</div>
+        </div>
+      </div>
+    </>
   );
 }
 
